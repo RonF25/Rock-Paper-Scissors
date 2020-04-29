@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+          <h1>Rock Paper Scissors</h1>  
+          <button id="restart" class="restart-btn">Restart Game</button>
+          <div id="score" class="score"></div>
+          <p>Player:0</p>
+          <p>Computer:0</p>
+        </header>
+        <h2>Make Your Selection</h2>
+        <div class="choices">
+            <i id="rock" class=""> Rock</i>
+            <i id="paper" class=""> Paper</i>
+            <i id="scissors" class=""> Scissors</i>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal">
+        <div id="result" class="modal-content">
+         <h1>You Win</h1>  
+          <i id="rock"></i>
+          <p>Computer chose rock</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
