@@ -21,7 +21,7 @@ body {
 
 .container {
  max-width: 1100;
- height: 520;
+ height: 580;
  margin: auto;
  overflow: hidden;
  padding: 0 2rem;
@@ -47,6 +47,7 @@ body {
     cursor: pointer;
     outline: none;
     border: none;
+    margin-bottom: 1rem;
 }
 
 .restart-btn:hover {
